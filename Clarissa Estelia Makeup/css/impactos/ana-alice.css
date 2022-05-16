@@ -1,27 +1,44 @@
-.ana-alice{
-    height: 637px;
-    width: 600px;
+.anaS{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 78px;
+    gap: 60px;
+    font-family: 'Mulish', sans-serif;
 }
 
+.conteudo-ana{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-sta;
+    gap: 53px;
+    padding: 10px;
+}
+.ana-name-container{
+    height: 100vh;
+    padding: 140px 0;
+}
 .nome-ana{
-    height: 83px;
-    width: 400px;
-    background-color: var(--claro);   border-radius: 10px;
+    padding: 2px 50px;
+    background-color: var(--escuro);   
+    border-radius: 10px;
     color: white;  
     font-size: 5rem;
-    position: absolute;
-    top: 1300px;
-    left: 900px;  
+    font-weight: 700;
 }
 
 .texto-ana{
-    text-align: center;
     color: white;
-    height: 410px;
-    width: 721px;
-    background-color: var(--claro);    border-radius: 10px;
+    width: 700px;
+    background-color: var(--escuro);    
+    border-radius: 10px;
     font-size: 2.5rem;
-    position: absolute;
-    top: 1450px;
-    left: 220px;
+    text-align: center;
+    font-weight: 800;
+    padding: 2px 0;
+
+}
+.ana{
+    height: 637px;
+
 }

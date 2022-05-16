@@ -1,28 +1,43 @@
-.leo{
-    height: 637px;
-    width: 1000px;
+.leoS{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0 78px;
+    gap: 190px;
+    font-family: 'Mulish', sans-serif;
 }
 
+.conteudo-leo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 53px;
+    padding: 10px;
+}
+.leo-name-container{
+    height: 70vh;
+    padding: 150px 0;
+}
 .nome-leo{
-    height: 83px;
-    width: 200px;
-    background-color: var(--mais-escuro);   border-radius: 10px;
+    padding: 20px 50px;
+    background-color: var(--escuro);   
+    border-radius: 10px;
     color: white;  
-    text-align: center;
     font-size: 5rem;
-    position: absolute;
-    top: 700px;
-    right: 380px;  
+    font-weight: 700;
 }
 
 .texto-leo{
-    text-align: center;
     color: white;
-    height: 410px;
-    width: 721px;
-    background-color: var(--mais-escuro);    border-radius: 10px;
+    width: 700px;
+    background-color: var(--escuro);    
+    border-radius: 10px;
     font-size: 2.5rem;
-    position: absolute;
-    top: 850px;
-    right: 120px;
+    text-align: center;
+    font-weight: 800;
+    padding: 2px 0;
+
+}
+.leo{
+    height: 637px;
 }
