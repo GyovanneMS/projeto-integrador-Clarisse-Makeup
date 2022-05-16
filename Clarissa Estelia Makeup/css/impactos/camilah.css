@@ -1,0 +1,27 @@
+
+.camilah{
+    height: 637px;
+    width: 500px;
+}
+.nome-camilah{
+    height: 83px;
+    width: 313px;
+    background-color: var(--escuro);   border-radius: 10px;
+    color: white;  
+    font-size: 5rem;
+    position: relative;
+    top: 460px;
+    left: 900px;  
+}
+
+.texto-camilah{
+    color: white;
+    height: 410px;
+    width: 621px;
+    background-color: var(--escuro);    border-radius: 10px;
+    font-size: 2.5rem;
+    text-align: center;
+    position: relative;
+    top: 550px;
+    left: 1020px;
+}

@@ -1,0 +1,27 @@
+.ana-alice{
+    height: 637px;
+    width: 600px;
+}
+
+.nome-ana{
+    height: 83px;
+    width: 400px;
+    background-color: var(--claro);   border-radius: 10px;
+    color: white;  
+    font-size: 5rem;
+    position: absolute;
+    top: 1300px;
+    left: 900px;  
+}
+
+.texto-ana{
+    text-align: center;
+    color: white;
+    height: 410px;
+    width: 721px;
+    background-color: var(--claro);    border-radius: 10px;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 1450px;
+    left: 220px;
+}
