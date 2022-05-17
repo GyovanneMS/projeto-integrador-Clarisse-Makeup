@@ -1,0 +1,107 @@
+main{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+}
+
+.content-container{
+    padding: 185px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    height: 90vh
+}
+.jobs-container{
+    height: 80vh;
+    display: flex;
+    flex: row;
+}
+.degrade{
+    width: max;
+    height: 200px;
+    background-image: linear-gradient(to right, 
+    var(--mais-claro)5%, 
+    var(--claro)5%, 
+    var(--claro)10%, 
+    var(--escuro) 10%, 
+    var(--escuro) 15%, 
+    var(--mais-escuro)15%, 
+    var(--mais-escuro)85%,
+    var(--escuro) 85%,
+    var(--escuro) 90%,
+    var(--claro) 90%,
+    var(--claro) 95%, 
+    var(--mais-claro)20%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    width: 920px;
+    color: #fff;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 900;
+}
+.img-container{
+    width: max;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 210px;
+}
+.right{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 193px;
+}
+.saiba-mais{
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    border: 3px solid #fff2;
+    border-radius: 10px;
+    transition: all .3s;
+    backdrop-filter: blur(3px);
+    padding: 16px 7px;
+    width: 500px;
+    height: 100px;
+}
+.right .saiba-mais{
+    align-items: flex-start;
+}
+.saiba-mais:hover{
+background-color: #FD6F6F33;
+border: 3px solid var(--mais-escuro);
+}
+.more{
+    font-size: 1.6rem;
+    font-weight: 300;
+}

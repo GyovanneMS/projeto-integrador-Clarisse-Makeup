@@ -1,0 +1,133 @@
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mulish', sans-serif;
+    margin-top: 120px;
+}
+
+.fundo-rosa{
+    background-color: var(--mais-claro);
+    height: 700px;
+    width: 951px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 15px;
+}
+.about{
+    flex-direction: column;
+    color: #fff;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.text-fundorosa{
+    width: 500px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.text-fundorosa2{
+    width: 400px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.fundo-preto{
+    background-color: #000;
+    height: 700px;
+    width: 460px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.fundo-branco{
+    display: flex;
+    background-color: #fff;
+    color: #000;
+    width: 411px;
+    height: 453px;
+    border-radius: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    gap: 30px;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.title-container h3{
+    font-weight: 800;
+    font-size: 2rem;
+}
+.title-container p{
+    font-size: 1.25rem;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+input{
+    border: 2px solid #000;
+    border-radius: 30px;
+    padding: 13px 16px;
+    width: 298px;
+}
+.login-container button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: var(--claro);
+    padding: 9px 25px;
+    width: 140px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.login-container button:hover{
+    background-color: var(--mais-escuro);
+    transform: translateY(-2px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+.login-container button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.problems-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 300;
+    gap: 42px;
+}
+.problems-container p{
+    cursor: pointer;
+}

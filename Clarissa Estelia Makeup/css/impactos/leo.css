@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    padding: 0 78px;
-    gap: 190px;
+    padding: 500px 57px;
+    gap: 0px;
     font-family: 'Mulish', sans-serif;
 }
 
@@ -15,11 +15,11 @@
     padding: 10px;
 }
 .leo-name-container{
-    height: 70vh;
-    padding: 150px 0;
+    height: 100vh;
+    padding: 140px 0;
 }
 .nome-leo{
-    padding: 20px 50px;
+    padding: 2px 50px;
     background-color: var(--escuro);   
     border-radius: 10px;
     color: white;  
@@ -36,7 +36,6 @@
     text-align: center;
     font-weight: 800;
     padding: 2px 0;
-
 }
 .leo{
     height: 637px;

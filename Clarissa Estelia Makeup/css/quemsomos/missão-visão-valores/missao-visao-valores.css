@@ -1,0 +1,54 @@
+.misvival{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.main-partes{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.titulo-mis-vis-val{
+    color: #FFF;
+    font-size: 5rem;
+}
+
+.partes{
+    height: 432px;
+    width: 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-m-v-v{
+    padding-bottom: 10px;
+    font-size: 4.375rem;
+    color: #FFF;
+}
+
+.informacaoMVV{
+    background-color: #FFF6;
+    font-size: 2rem;
+    height: 92vh;
+    width: 20vw;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 17px 3px;
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;
+}
+
+.informacaoMVV:hover{
+    background-color: var(--escuro);
+    transition: all 2s ;
+}
+

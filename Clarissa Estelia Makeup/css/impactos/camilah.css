@@ -1,31 +1,43 @@
 .camilahS{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: start; 
-    align-items: flex-end;
-    justify-content: space-around;
+    align-items: center;
+    padding: 500px 57px;
+    gap: 65px;
+    font-family: 'Mulish', sans-serif;
 }
 
-.camilah{
-    height: 637px;
-    width: 500px;
+.conteudo-camilah{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    gap: 53px;
+    padding: 75px;
 }
-
+.camilah-name-container{
+    height: 100vh;
+    padding-top: 100px;
+    padding-left: -900px;
+}
 .nome-camilah{
-    height: 83px;
-    width: 313px;
-    background-color: var(--escuro);   border-radius: 10px;
+    padding: 2px 50px;
+    background-color: var(--escuro);   
+    border-radius: 10px;
     color: white;  
     font-size: 5rem;
-
-
+    font-weight: 700;
 }
 
 .texto-camilah{
     color: white;
-    height: 410px;
-    width: 621px;
-    background-color: var(--escuro);    border-radius: 10px;
+    width: 700px;
+    background-color: var(--escuro);    
+    border-radius: 10px;
     font-size: 2.5rem;
     text-align: center;
+    font-weight: 800;
+    padding: 2px 0;
+}
+.camilah{
+    height: 637px;
 }

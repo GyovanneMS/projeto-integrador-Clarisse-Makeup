@@ -1,0 +1,32 @@
+
+.title-nossasconquis{
+    font-size: 4.3rem;
+    display: flex;
+    justify-content: center;
+    padding-right: 450px;
+    color: #fff;
+}
+
+.premios{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 86px;
+}
+
+.fila-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fila-2{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.fila-3{
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}

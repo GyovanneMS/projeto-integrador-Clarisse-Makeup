@@ -2,15 +2,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0 78px;
-    gap: 60px;
+    padding: 30px 57px;
+    gap: 0px;
     font-family: 'Mulish', sans-serif;
 }
 
 .conteudo-ana{
     display: flex;
     flex-direction: column;
-    justify-content: flex-sta;
+    justify-content: flex-end;
     gap: 53px;
     padding: 10px;
 }
@@ -19,7 +19,7 @@
     padding: 140px 0;
 }
 .nome-ana{
-    padding: 2px 50px;
+    padding: 2px;
     background-color: var(--escuro);   
     border-radius: 10px;
     color: white;  
@@ -40,5 +40,4 @@
 }
 .ana{
     height: 637px;
-
 }

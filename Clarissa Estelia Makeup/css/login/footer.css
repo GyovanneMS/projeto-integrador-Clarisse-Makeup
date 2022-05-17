@@ -1,0 +1,40 @@
+footer{
+    height: 120px;
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 27px;
+}
+
+.comeback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--claro);
+    padding: 9px 25px;
+    width: 219px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    transition: all .3s;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    right: 25px;
+}
+.comeback a{
+    color: #fff;
+}
+.comeback:hover{
+    background-color: var(--mais-escuro);
+    transform: translateY(-2px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+.comeback:active {
+    box-shadow: none;
+    transform: translateY(0);
+}

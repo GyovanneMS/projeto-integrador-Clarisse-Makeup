@@ -1,0 +1,10 @@
+body, html{
+    position: relative;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+

@@ -1,0 +1,79 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+    background-color: black;
+}
+
+h1{
+    color: white;
+}
+
+main{
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+section{
+    height: 100vh;
+}
+
+.quemsomos{
+    background-image: url(../../img/quem-somos/bg-quemsomos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 57px;
+    gap: 443px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    padding-top: 281px;
+}
+.titulo h1{
+    width: 653.55px;
+    text-align: flex-end;
+}
+
+.quems{
+    font-size: 4.3rem;
+    align-items: flex-start;
+}
+
+.retan{
+    height: 7px;
+    width: 653.55px;
+}
+
+.container{
+    padding: 69px;
+}
+
+.text-container{
+    align-items: flex-end;
+    background-color: var(--claro);
+    justify-content: flex-end;
+    padding: 30px;
+    width: 652px;
+    height: 335px;
+}
+
+.text-quems{
+    font-size: 2.75rem;
+    font-weight: 700;
+}
+
+video{
+    display: flex;
+    align-items: flex-start;
+}
+
+video:hover{
+    border-left: 10px solid var(--escuro);
+    transition: all .5s;
+}
